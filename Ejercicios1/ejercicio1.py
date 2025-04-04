@@ -31,4 +31,4 @@ print("Otros cursos eliminan un", tiempo_vacio_otros, "% de tiempo vacío")
 #EJERCICIO 3
 #Ver 10h de este curso a cuando equivale de otros cursos
 print(f'Ver 10h de este curso equivale a {round(media_duracion_otros * 100 // duracion_dalto / 10, 2)}h de los otros cursos')
-print(f'Ver 10h de este curso equivale a {round(duracion_dalto * 100 // media_duracion_otros / 10, 2)}h de los otros cursos')
+print(f'Ver 10h de otros cursos equivale a {round(duracion_dalto * 100 // media_duracion_otros / 10, 2)}h de el de dalto')
