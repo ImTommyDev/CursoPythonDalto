@@ -8,7 +8,7 @@ print(lista[1]) #21
 print(lista[2]) #False
 
 #tuplas - NO MODIFICABLES
-#Las tuplas son similares a las listas pero no se pueden modificar una vez creadas
+#Las tuplas son similares a las listas pero no se pueden modificar una vez creadas, muy utiles para guardar datos que no quiero modificar
 tupla = ("Tomas",21,True,22,"Carlos")
 print(tupla[0]) #Tomas
 print(tupla[1]) #21
