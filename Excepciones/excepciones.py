@@ -9,7 +9,8 @@ def sumar_dos ():
         resulado = n + n2
         print(f"El resultado es: {resulado}")
         
-    except ValueError:
+    except Exception as e:
+        print("Error: ", e)
         print("Uno de los valores no es un numero")
         return
     
